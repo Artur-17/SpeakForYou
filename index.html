@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speak For You</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script/script.js"></script>
+</head>
+<body>
+    
+    <main class="container">
+        <div class="content">
+
+            <div contenteditable oninput="setText(event)" class="input-text" >Digite seu texto aqui...</div>
+    
+            <div class="buttons">
+                <button class="soft" onclick="speak()">Falar</button>
+                <button class="dark" onclick="stop()">Parar</button>
+            </div>
+            
+        </div>
+    </main>
+    
+    
+</body>
+</html>
